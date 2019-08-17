@@ -6,10 +6,11 @@ int main()
     printf("enter a num");
     scanf("%d",&d);
     if(num%2==0)
-     printf("%d even",num);
-    else
-     printf("%d odd",num);
+    {
+        printf("even%d",num);
     }
-
-    return 0;
+    else
+    {
+     printf("odd%d",num);
+    }
 }
